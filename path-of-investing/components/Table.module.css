@@ -1,0 +1,19 @@
+.table {
+    width: 75%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+   /* border: 1px solid #ddd; */
+    padding: 8px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+
+.table td:hover {
+  color: #ccc;
+  
+}
